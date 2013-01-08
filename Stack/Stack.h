@@ -23,6 +23,8 @@ public:
     string peek();
     bool isEmpty();
     int count();
+    void clear();
+    
 };
 
 

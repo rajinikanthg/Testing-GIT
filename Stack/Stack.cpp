@@ -20,9 +20,20 @@ string Stack::peek(){
 }
 
 bool Stack::isEmpty(){
-    
+    if(top == -1){
+        return true;
+    }else {
+        return false;
+    }
 }
 
 int Stack::count(){
     return top + 1;
+}
+
+void Stack::clear(){
+    for (int i=0; i <= top-1; ++i){
+        datastore[i] = "";
+    }
+    top = -1;
 }
