@@ -21,6 +21,8 @@ public:
     void push(string value);
     string pop();
     string peek();
+    bool isEmpty();
+    int count();
 };
 
 

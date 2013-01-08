@@ -18,3 +18,11 @@ string Stack::pop(){
 string Stack::peek(){
     return datastore[top];
 }
+
+bool Stack::isEmpty(){
+    
+}
+
+int Stack::count(){
+    return top + 1;
+}
